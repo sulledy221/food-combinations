@@ -11,6 +11,8 @@ export default function Lunch() {
 
   ])
   return (
-    <div>Lunch</div>
+    <div>
+    <button onClick={lunchFoods} className="button-size">Lunch</button>
+    </div>
   )
 }

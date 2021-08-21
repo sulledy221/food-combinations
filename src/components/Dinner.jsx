@@ -3,14 +3,13 @@ import './Meal.css';
 
 export default function Dinner() {
   const [dinnerFoods] = useState([
-    {title: "", value:""},
-    {title: "", value:""},
-    {title: "", value:""},
-    {title: "", value:""},
-    {title: "", value:""},
-    {title: "", value:""}
+    {title: "Chicken & Mac", value: "Chicken & Mac"},
+    {title: "Bean Burrito & Rice", value: "Bean Burrito & Rice"},
+    {title: "Spaghetti & Meatballs", value: "Spaghetti & Meatballs"},
   ])
   return (
-    <div>Dinner</div>
+    <div>
+    <button onClick={dinnerFoods} className="button-size">Dinner</button>
+    </div>
   )
 }

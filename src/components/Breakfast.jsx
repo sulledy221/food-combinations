@@ -11,6 +11,8 @@ export default function Breakfast({ onChange, value}) {
   ])
 
   return (
-    <div>Breakfast</div>
+    <div>
+    <button onClick={breakfastFoods} className="button-size">Breakfast</button>
+    </div>
   )
 }
